@@ -1,0 +1,80 @@
+{
+    "quantitativas": [
+        {
+          "nome": "Número total de estudantes",
+          "data": "double"
+        },
+        {
+          "nome": "Número de estudantes por universidade",
+          "data": [
+            {
+                "universidade":"String",
+                "numeroEstudantes":"Inteiro"
+            }
+          ]
+        },
+        {
+          "nome": "Percentagem de estudantes em cada programa",
+          "data": [
+            {
+                "programa":"String",
+                "numeroEstudantes":"Inteiro"
+            }
+          ]
+        },
+        {
+          "nome": "Taxa de participação em actividades imersivas por universidade",
+          "data": [
+            {
+                "universidade":"String",
+                "numeroEstudantes":"Inteiro"
+            }
+          ]
+        },
+        {
+          "nome": "Popularidade de cada ferramenta",
+          "data": [
+            {
+                "ferramenta":"String",
+                "popularidade":"Inteiro"
+            }
+          ]
+        },
+        {
+            "nome": "Média global de satisfação",
+            "data": "double"
+        },
+        {
+          "nome": "Média global de satisfação por universidade",
+          "data": [
+            {
+                "universidade":"String",
+                "numeroEstudantes":"Inteiro"
+            }
+          ]
+        }
+      ]
+ ,  
+    "qualitativas": [
+      {
+        "nome": "Classificação da satisfação média dos estudantes por Universidade",
+        "data": "array"
+      },
+      {
+        "nome": "Análise da correlação entre programas e satisfação",
+        "data": "array"
+      },
+      { "nome": "Análise de feedback de participantes e não participantes",
+      "data": "array"
+    },
+      {
+        "nome": "Feedback detalhado sobre a experiência com cada ferramenta",
+        "data": "array"
+      },
+      {
+        "nome": "Análise de comentários abertos para insights específicos",
+        "data": "array"
+      }
+    ]
+  }
+  
